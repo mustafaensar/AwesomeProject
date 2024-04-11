@@ -20,7 +20,7 @@ function App(): React.JSX.Element {
 
   return (
     <View style={{flex:1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#ffdf80'}}>
-      <Button color={'red'} title='Press me' onPress={alertFunc}/>
+      <Button color={'blue'} title='Press me' onPress={alertFunc}/>
       <Button title='Press me' onPress={alertFunc}/>
     </View>
   );
